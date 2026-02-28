@@ -15,34 +15,34 @@
 
 ---
 
-## About Me
+## 🧠 About Me
 
 I'm a **Machine Learning Engineer** pursuing M.Tech in Mathematics & Computing at **NIT Jalandhar**, with a strong focus on understanding *why* models work — not just how to use them.
 
 My work sits at the intersection of **mathematical rigor** and **practical ML systems**:
 
--  I study gradient-based optimization, convergence theory, and loss landscapes from first principles
--  I build end-to-end ML pipelines — from data ingestion to training, evaluation, and deployment
--  I've applied these skills in a real-world research environment at **ISRO – SDSC SHAR**
--  I write about optimization and ML engineering — [read my notes on LinkedIn](https://www.linkedin.com/in/chandu-chowdary-bondu/)
+- 📐 I study gradient-based optimization, convergence theory, and loss landscapes from first principles
+- 🔧 I build end-to-end ML pipelines — from data ingestion to training, evaluation, and deployment
+- 🚀 I've applied these skills in a real-world research environment at **ISRO – SDSC SHAR**
+- 📝 I write about optimization and ML engineering — [read my notes on LinkedIn](https://www.linkedin.com/in/chandu-chowdary-bondu/)
 
 > My long-term goal: become an AI engineer who combines **mathematical depth** with **strong systems thinking** — building models that are accurate, stable, interpretable, and deployable.
 
 ---
 
-##  Currently
+## 🔬 Currently
 
--  Working on: **Core Gradients — Optimization from Scratch** (convergence analysis, gradient-based methods)
--  Learning: **Statistical Learning Theory · Proximal & Second-Order Methods · MLOps Architecture**
--  Open to collaborate on: **Math-heavy ML / AI research projects**
--  Exploring: **Quantitative Finance applications of ML**
--  Ask me about: **ML, Linear Algebra, Probability, Convex Optimization, Gradient Descent**
+- 🔭 Working on: **Core Gradients — Optimization from Scratch** (convergence analysis, gradient-based methods)
+- 🌱 Learning: **Statistical Learning Theory · Proximal & Second-Order Methods · MLOps Architecture**
+- 🤝 Open to collaborate on: **Math-heavy ML / AI research projects**
+- 📚 Exploring: **Quantitative Finance applications of ML**
+- 💬 Ask me about: **ML, Linear Algebra, Probability, Convex Optimization, Gradient Descent**
 
 ---
 
-##  Featured Projects
+## 🏗️ Featured Projects
 
-###  [Core Gradients: Optimization from Scratch](https://github.com/chanduchowdary8978) · *NIT Jalandhar · Nov 2025 – Jan 2026*
+### 📊 [Core Gradients: Optimization from Scratch](https://github.com/chanduchowdary8978) · *NIT Jalandhar · Nov 2025 – Jan 2026*
 > A deep, from-scratch exploration of gradient-based optimization methods with mathematical intuition and convergence analysis.
 
 - Implemented **linear & logistic regression** from scratch on real datasets
@@ -52,7 +52,7 @@ My work sits at the intersection of **mathematical rigor** and **practical ML sy
 
 ---
 
-###  [Performance-Aware Thermal Throttling Prediction](https://github.com/chanduchowdary8978) · *Self Project · Sep – Nov 2025*
+### 🌡️ [Performance-Aware Thermal Throttling Prediction](https://github.com/chanduchowdary8978) · *Self Project · Sep – Nov 2025*
 > An ML system to predict CPU thermal throttling events from system telemetry — combining classification and regression in a unified pipeline.
 
 - Formulated throttling detection as a **classification problem** with advance prediction
@@ -61,7 +61,7 @@ My work sits at the intersection of **mathematical rigor** and **practical ML sy
 
 ---
 
-###  [Time-Series Forecasting with LSTM — ISRO Internship](https://github.com/chanduchowdary8978) · *ISRO SDSC SHAR · Feb – May 2024*
+### 🛰️ [Time-Series Forecasting with LSTM — ISRO Internship](https://github.com/chanduchowdary8978) · *ISRO SDSC SHAR · Feb – May 2024*
 > End-to-end LSTM forecasting on real operational weather data in a constrained research environment.
 
 - Developed **LSTM-based** time-series models on live operational weather datasets from ISRO
@@ -70,7 +70,7 @@ My work sits at the intersection of **mathematical rigor** and **practical ML sy
 
 ---
 
-###  [Hyperparameter Optimization Tool](https://github.com/chanduchowdary8978) · *Self Project · Nov 2023 – Jan 2024*
+### ⚙️ [Hyperparameter Optimization Tool](https://github.com/chanduchowdary8978) · *Self Project · Nov 2023 – Jan 2024*
 > A Streamlit-based GUI tool to explore and compare hyperparameter tuning strategies interactively.
 
 - Explored **grid search and random search** strategies with efficiency trade-off analysis
@@ -78,7 +78,7 @@ My work sits at the intersection of **mathematical rigor** and **practical ML sy
 
 ---
 
-###  [Titanic Survival Prediction](https://github.com/chanduchowdary8978) · *Self Project · Sep – Nov 2023*
+### 🚢 [Titanic Survival Prediction](https://github.com/chanduchowdary8978) · *Self Project · Sep – Nov 2023*
 > A tabular ML classification project focused on deep feature engineering and model comparison.
 
 - Engineered features and preprocessed data for robust tabular classification
@@ -86,7 +86,7 @@ My work sits at the intersection of **mathematical rigor** and **practical ML sy
 
 ---
 
-##  Mathematical Foundations
+## 🧮 Mathematical Foundations
 
 ```
 Linear Algebra          →  Foundations of every model I build
@@ -99,7 +99,7 @@ Statistical Learning    →  Bias-variance, regularization, generalization bound
 
 ---
 
-##  Tech Stack
+## 🛠️ Tech Stack
 
 ### Core Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -127,7 +127,7 @@ Statistical Learning    →  Bias-variance, regularization, generalization bound
 
 ---
 
-##  Education
+## 📚 Education
 
 | Degree | Institution | CGPA | Year |
 |---|---|---|---|
@@ -136,7 +136,7 @@ Statistical Learning    →  Bias-variance, regularization, generalization bound
 
 ---
 
-##  Experience
+## 🚀 Experience
 
 **Machine Learning Intern — Indian Space Research Organisation (ISRO), SDSC SHAR**
 `Feb 2024 – May 2024`
@@ -145,7 +145,7 @@ Worked on LSTM-based time-series forecasting with real operational weather data 
 
 ---
 
-##  Ongoing Self-Study
+## 📖 Ongoing Self-Study
 
 I maintain an active study practice outside coursework. Currently focused on:
 
@@ -157,19 +157,21 @@ I maintain an active study practice outside coursework. Currently focused on:
 
 ---
 
-##  GitHub Stats
+## 📊 GitHub Stats
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=chanduchowdary8978&show_icons=true&theme=calm&hide_border=true&count_private=true)
+<img src="https://github-readme-streak-stats.herokuapp.com?user=chanduchowdary8978&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chanduchowdary8978&layout=compact&theme=calm&hide_border=true&langs_count=6)
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chanduchowdary8978&layout=compact&theme=dark&hide_border=true&langs_count=6&cache_seconds=1800" alt="Top Languages" />
 
 </div>
 
 ---
 
-##  Latest Writing
+## 📝 Latest Writing
 
 I publish notes and articles on ML engineering and optimization on LinkedIn:
 
@@ -190,7 +192,7 @@ I publish notes and articles on ML engineering and optimization on LinkedIn:
 
 ---
 
-![Visitor Count](https://visitcount.itsvg.in/api?id=chanduchowdary8978&icon=0&color=0)
+![Profile Views](https://komarev.com/ghpvc/?username=chanduchowdary8978&color=blue&style=flat-square&label=Profile+Views)
 
 *"Mathematics is the language in which the universe is written — and gradient descent is how we read it."*
 
