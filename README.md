@@ -1,6 +1,622 @@
 <div align="center">
 
 # Bondu Chandu
+<div align="center">
+
+# Bondu Chandu
+
+### Machine Learning Engineer • Distributed ML • ML Systems • Optimization • M.Tech @ NIT Jalandhar
+
+<p>
+
+<a href="https://chanduchowdary8978.github.io/Chandu_Portfolio/">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/chandu-chowdary-bondu/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:chanduchowdary8978@gmail.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</p>
+
+<img src="https://komarev.com/ghpvc/?username=chanduchowdary8978&style=flat-square&color=blue" />
+
+</div>
+
+---
+
+# Engineering Summary
+
+I build **production-oriented machine learning systems** that combine statistical modeling, deep learning, and scalable software engineering. My work focuses on designing end-to-end ML pipelines, optimizing distributed training, deploying inference services, and evaluating models under realistic operating conditions.
+
+Current areas of work include:
+
+- Communication-efficient Distributed Training (LocalSGD)
+- Fraud Detection for High-Volume Payment Systems
+- Time-Series Forecasting
+- ML System Design
+- Optimization Algorithms
+- Data Engineering Pipelines
+- Mathematical Modeling for Machine Learning
+
+Alongside engineering projects, I study optimization theory and distributed learning to better understand the mathematical foundations behind modern machine learning systems. :contentReference[oaicite:0]{index=0}
+
+---
+
+# Core Expertise
+
+<table>
+
+<tr>
+
+<td width="50%">
+
+## Machine Learning
+
+- Classical Machine Learning
+- Deep Learning
+- Supervised Learning
+- Feature Engineering
+- Model Evaluation
+- Hyperparameter Optimization
+- Time-Series Forecasting
+- Fraud & Anomaly Detection
+
+</td>
+
+<td width="50%">
+
+## Distributed ML
+
+- LocalSGD
+- Non-IID Training
+- Distributed Optimization
+- Communication-Efficient Learning
+- Multi-worker Simulation
+- Training Stability
+- Gradient Synchronization
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+## ML Systems
+
+- End-to-End ML Pipelines
+- Real-Time Inference
+- FastAPI Services
+- Docker Deployment
+- Experimentation
+- Model Benchmarking
+- Monitoring Pipelines
+
+</td>
+
+<td>
+
+## Mathematical Foundations
+
+- Convex Optimization
+- Gradient-Based Optimization
+- Linear Algebra
+- Probability & Statistics
+- Numerical Optimization
+- Mathematical Modeling
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+# Engineering Focus
+
+| Domain | Focus |
+|---------|-------|
+| **Machine Learning** | Building production-ready ML pipelines |
+| **Deep Learning** | PyTorch-based model development and optimization |
+| **Distributed Training** | Communication-efficient LocalSGD and scalable training strategies |
+| **MLOps** | FastAPI deployment, Docker containerization and reproducible workflows |
+| **Optimization** | Gradient methods, training stability and convergence analysis |
+| **Data Engineering** | Large-scale preprocessing, feature engineering and pipeline automation |
+| **Research** | Distributed optimization, ML systems and mathematical modeling |
+
+---
+
+# Technology Stack
+
+## Programming
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=python,cpp,c,r,postgres,mongodb"/>
+
+</p>
+
+---
+
+## Machine Learning
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=pytorch"/>
+
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/XGBoost-EC6B23?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/LightGBM-7CB342?style=for-the-badge"/>
+
+</p>
+
+---
+
+## ML Systems & Deployment
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=docker,git,linux,fastapi"/>
+
+</p>
+
+---
+
+## Databases
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=postgres,mongodb"/>
+
+</p>
+
+---
+
+## Visualization
+
+<p>
+
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
+
+</p>
+
+---
+
+## Deep Learning Optimization
+
+<table>
+
+<tr>
+
+<td>Automatic Mixed Precision (AMP)</td>
+<td>Gradient Clipping</td>
+<td>Learning Rate Scheduling</td>
+
+</tr>
+
+<tr>
+
+<td>Cosine Annealing</td>
+<td>Training Stability</td>
+<td>Distributed Optimization</td>
+
+</tr>
+
+</table>
+
+---
+
+# Engineering Interests
+
+Rather than focusing on individual models, I enjoy building complete machine learning systems that can be trained, evaluated, deployed, and monitored efficiently.
+
+Current engineering interests include:
+
+- Distributed Machine Learning
+- Communication-Efficient Training
+- Fraud Detection Systems
+- High-Volume Transaction Analytics
+- Time-Series Forecasting
+- ML Infrastructure
+- Real-Time Inference
+- Optimization Algorithms
+- Simulation-Based Machine Learning
+- Data-Centric AI
+- Mathematical Modeling for ML
+
+---# Featured Engineering Projects
+
+---
+
+## Distributed Fraud Detection for Payment Systems using LocalSGD
+
+> **Communication-efficient distributed fraud detection system designed for large-scale payment networks using LocalSGD, real-time inference, and containerized deployment.**
+
+| Category | Details |
+|----------|----------|
+| **Domain** | Distributed Machine Learning |
+| **Dataset** | 6.36 Million Payment Transactions |
+| **Framework** | PyTorch |
+| **Deployment** | FastAPI + Docker |
+| **Training Strategy** | LocalSGD with Non-IID Workers |
+
+### Problem
+
+Modern payment systems process millions of transactions across geographically distributed data centers. Centralized training introduces significant communication overhead while fraud detection suffers from extreme class imbalance.
+
+### Engineering Approach
+
+- Simulated **5 distributed worker nodes** using Non-IID data partitions
+- Implemented communication-efficient **LocalSGD** synchronization
+- Built an end-to-end distributed training pipeline using PyTorch
+- Deployed the trained model through **FastAPI**
+- Containerized the inference service using Docker
+
+### Engineering Highlights
+
+- Distributed LocalSGD Training
+- Automatic Mixed Precision (AMP)
+- Gradient Clipping
+- Learning Rate Scheduling
+- Network Communication Simulation
+- Monitoring Dashboard
+- Real-Time Fraud Inference API
+
+### Performance
+
+| Metric | Value |
+|---------|--------|
+| Accuracy | **99.94%** |
+| ROC-AUC | **0.9906** |
+| Fraud F1 Score | **0.680** |
+| Dataset Size | **6.36M Transactions** |
+
+### Technology Stack
+
+`Python` • `PyTorch` • `FastAPI` • `Docker` • `LocalSGD`
+
+**Repository →** *(Add Repository Link)*
+
+---
+
+## RapidoSim — Multi-Agent Ride-Hailing Simulation
+
+> **Simulation framework for modeling ride-hailing ecosystems using reinforcement learning and stochastic optimization.**
+
+| Category | Details |
+|----------|----------|
+| **Domain** | Reinforcement Learning |
+| **Environment** | Multi-Agent Simulation |
+| **Optimization** | Dynamic Pricing |
+
+### Problem
+
+Ride-hailing platforms continuously balance rider demand, driver availability, and pricing under uncertain environments.
+
+### Engineering Approach
+
+- Modeled dispatch as a **Markov Decision Process (MDP)**
+- Designed a modular multi-agent simulation
+- Compared adaptive pricing strategies with static and surge pricing baselines
+- Built an experimentation framework for evaluating policy performance
+
+### Engineering Highlights
+
+- Reinforcement Learning Environment
+- Dynamic Pricing Engine
+- Modular Simulation Design
+- Benchmarking Framework
+- Policy Evaluation Pipeline
+
+### Technology Stack
+
+`Python` • `Reinforcement Learning` • `Stochastic Optimization`
+
+**Repository →** *(Add Repository Link)*
+
+---
+
+## Thermal Throttling Prediction via System Telemetry
+
+> **Machine learning pipeline for predicting CPU thermal behavior from hardware telemetry to support proactive performance management.**
+
+| Category | Details |
+|----------|----------|
+| **Domain** | Predictive Analytics |
+| **Model** | XGBoost |
+| **Objective** | Early Thermal Throttling Detection |
+
+### Problem
+
+CPU thermal throttling reduces system performance. Predicting thermal behavior before throttling enables proactive resource management.
+
+### Engineering Approach
+
+- Built an end-to-end ML pipeline
+- Engineered temporal telemetry features
+- Trained XGBoost regression models
+- Evaluated prediction quality for proactive intervention
+
+### Engineering Highlights
+
+- Feature Engineering
+- Data Preprocessing Pipeline
+- Regression Modeling
+- Model Evaluation
+- Performance Analysis
+
+### Performance
+
+| Metric | Value |
+|---------|--------|
+| R² Score | **0.355** |
+| MAE | **≈ 0.73°C** |
+
+### Technology Stack
+
+`Python` • `XGBoost` • `Scikit-learn`
+
+**Repository →** *(Add Repository Link)*
+
+---
+
+## Convex Optimization Essentials for Linear Models
+
+> **Implementation and benchmarking of optimization algorithms from first principles for supervised learning.**
+
+| Category | Details |
+|----------|----------|
+| **Domain** | Optimization |
+| **Implementation** | From Scratch |
+| **Frameworks** | NumPy + PyTorch |
+
+### Problem
+
+Understanding optimization algorithms requires more than using library implementations. This project benchmarks optimization strategies under identical training conditions.
+
+### Engineering Approach
+
+- Implemented optimization algorithms from scratch
+- Compared convergence characteristics
+- Visualized optimization trajectories
+- Evaluated optimizer efficiency using cross-validation
+
+### Implemented Algorithms
+
+- Gradient Descent
+- Mini-Batch Gradient Descent
+- Stochastic Gradient Descent
+- SAGA
+
+### Performance
+
+| Metric | Value |
+|---------|--------|
+| Cross Validation Accuracy | **96.5%** |
+
+### Engineering Highlights
+
+- Mathematical Implementation
+- Convergence Visualization
+- Optimizer Benchmarking
+- Performance Comparison
+
+### Technology Stack
+
+`Python` • `NumPy` • `PyTorch` • `Matplotlib`
+
+**Repository →** *(Add Repository Link)*
+
+---
+
+## ISRO Weather Forecasting using LSTM
+
+> **End-to-end multivariate time-series forecasting pipeline developed during the Machine Learning Internship at ISRO SDSC SHAR.**
+
+| Category | Details |
+|----------|----------|
+| **Domain** | Time-Series Forecasting |
+| **Framework** | PyTorch |
+| **Dataset** | 420K+ Observations |
+
+### Problem
+
+Operational weather forecasting requires robust sequence models capable of learning temporal dependencies across multiple atmospheric variables.
+
+### Engineering Approach
+
+- Built reusable preprocessing and sequence generation pipelines
+- Applied feature engineering for multivariate atmospheric data
+- Encoded wind direction using circular transformations
+- Evaluated forecasting performance across multiple configurations
+
+### Engineering Highlights
+
+- Multivariate LSTM Pipeline
+- Feature Engineering
+- Circular Encoding
+- Hyperparameter Optimization
+- End-to-End Evaluation Pipeline
+
+### Performance
+
+| Metric | Value |
+|---------|--------|
+| Dataset | **420K+ Observations** |
+| Variables | **7 Weather Features** |
+| Best R² | **0.9998** |
+
+### Technology Stack
+
+`Python` • `PyTorch` • `LSTM`
+
+**Repository →** *(Add Repository Link)*
+
+---
+
+# Research & Technical Writing
+
+## Research
+
+| Status | Research | Area |
+|---------|----------|------|
+| 📝 Under Review | **Communication-Efficient Distributed Learning using LocalSGD** | Distributed Machine Learning |
+| 🚧 In Preparation | **Spatial Dispatch Networks** | Mathematical Modeling · Stochastic Systems |
+
+---
+
+## Technical Writing
+
+I regularly publish engineering notes covering optimization, machine learning, and distributed training.
+
+**Learning Optimization Newsletter**
+
+- 26+ technical editions
+- Mathematical optimization
+- Gradient-based methods
+- Distributed learning
+- ML engineering concepts
+
+> **Read on LinkedIn:**  
+> https://www.linkedin.com/in/chandu-chowdary-bondu/
+
+---
+
+# GitHub Analytics
+
+<div align="center">
+
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=chanduchowdary8978&show_icons=true&hide_border=true&rank_icon=github"/>
+
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chanduchowdary8978&layout=compact&hide_border=true"/>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=chanduchowdary8978&hide_border=true"/>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=chanduchowdary8978&hide_border=true"/>
+
+</div>
+
+---
+
+# Current Engineering Focus
+
+| Building | Optimizing | Research |
+|-----------|------------|----------|
+| Communication-Efficient ML Systems | Distributed Training | LocalSGD |
+| Production ML Pipelines | Training Stability | Distributed Optimization |
+| Real-Time Inference APIs | Automatic Mixed Precision | Mathematical Modeling |
+| Fraud Detection Systems | Gradient-Based Optimization | Large-Scale ML Systems |
+
+---
+
+# Engineering Principles
+
+- Design machine learning systems that are reproducible, scalable, and measurable.
+- Benchmark models using appropriate evaluation metrics rather than relying solely on accuracy.
+- Treat optimization as both a mathematical problem and a systems engineering challenge.
+- Prioritize production readiness through deployment, monitoring, and reproducible workflows.
+- Build solutions that balance model performance with computational efficiency.
+
+---
+
+# Education
+
+| Degree | Institution | Duration |
+|----------|-------------|----------|
+| **M.Tech — Mathematics & Computing** | Dr. B. R. Ambedkar National Institute of Technology, Jalandhar | 2025 – 2027 |
+| **B.Tech — Computer Science & Engineering** | JNTUA College of Engineering, Kalikiri | 2020 – 2024 |
+
+---
+
+# Professional Experience
+
+## Machine Learning Intern
+
+**Indian Space Research Organisation (ISRO) – SDSC SHAR**
+
+**Feb 2024 – May 2024**
+
+Worked on an end-to-end multivariate weather forecasting pipeline using LSTM models over large-scale atmospheric datasets.
+
+Key contributions included:
+
+- Data preprocessing pipeline
+- Sequence generation
+- Feature engineering
+- Circular encoding
+- Model evaluation
+- Hyperparameter optimization
+- Forecast accuracy analysis
+
+---
+
+# Open Source Goals
+
+Current long-term engineering priorities include:
+
+- Building production-quality ML systems
+- Contributing reusable ML infrastructure
+- Publishing reproducible research
+- Developing scalable distributed learning frameworks
+- Improving model deployment workflows
+
+---
+
+# Connect
+
+<div align="center">
+
+<a href="https://chanduchowdary8978.github.io/Chandu_Portfolio/">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+<a href="https://github.com/chanduchowdary8978">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://www.linkedin.com/in/chandu-chowdary-bondu/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:chanduchowdary8978@gmail.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### Thanks for visiting.
+
+Machine Learning • Distributed Systems • Optimization • ML Infrastructure
+
+</div>
+
 
 ### Machine Learning Engineer · Math-First Thinker · NIT Jalandhar
 
