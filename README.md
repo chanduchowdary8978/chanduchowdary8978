@@ -39,8 +39,6 @@ My work combines mathematical modeling with practical engineering to design scal
 - ML Pipelines
 - Optimization Algorithms
 - Data Engineering Pipelines
-- Real-Time Inference APIs
-- MLOps Workflows
 
 ---
 
