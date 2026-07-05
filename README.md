@@ -77,7 +77,7 @@ My work combines mathematical modeling with practical engineering to design scal
 
 The repositories below represent my primary engineering work.
 
-- **Distributed Fraud Detection using LocalSGD**
+- **Distributed Fraud Detection using LocalSGD with FastAPI**
 - **RapidoSim** --- (Under Work)
 - **Thermal Throttling Prediction**
 - **Convex Optimization Essentials**
